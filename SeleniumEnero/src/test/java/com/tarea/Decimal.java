@@ -15,8 +15,27 @@ NOTE: Do not add a  main method to solution code.
  * 
  */
 	public static boolean areEqualByThreeDecimalPlaces (double a, double b) {
-		return false;
 		
+		/*
+		String var1= new String();
+		String var2= new String();
+		var1 = Double.toString(a);
+		var2 = Double.toString(b);
+		String var3[]= new String[var1.length()];
+		var3 = String.valueOf(a);
+		System.out.println(var1);
+		System.out.println(var2);
+		for(int i; i<= var1.length(); i++)
+			for ( int ii; var1[i]=='.'; i++)
+				return false;
+				*/		
+		int x = ((int) a)*1000;
+		int y = ((int) b)*1000;
+		
+		if (x==y)
+			return true;
+		else return false;
+			
 	}
 	
 	
