@@ -51,7 +51,7 @@ public class Log {
 		//clic sobre el campo del botón para iniciar el login
 		driver.findElement(By.id("loginBtn")).click();
 		
-		//driver.close();
+		driver.close();
   }
   @BeforeTest
   public void beforeTest() {
