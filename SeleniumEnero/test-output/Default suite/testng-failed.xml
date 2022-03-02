@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fsp.Log">
+      <class name="com.google.Admin">
         <methods>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="Login"/>
+          <include name="tc002AdminSearchEmployeeNotExist"/>
+          <include name="afterTest"/>
+          <include name="tc003AdminAddNewUser"/>
         </methods>
-      </class> <!-- com.fsp.Log -->
+      </class> <!-- com.google.Admin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
