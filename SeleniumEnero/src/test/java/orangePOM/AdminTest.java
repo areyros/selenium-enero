@@ -31,7 +31,7 @@ public class AdminTest {
 		password = "admin123";
 		userNotExist = "asdasdasd";
 		usuario= "Juan Perez";
-		nombre= "Juan Perez 16";
+		nombre= "Juan Perez 18";
 		contra= "Contra1234!";
 	  }
 	
@@ -78,7 +78,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 		admin.buscarUsuario(nombre);
 		admin.validarUsuarioNoExistente();
 		login.logOut();
-		login.closeBrowser();
+		//login.closeBrowser(); // este close esta de mas este close esta de mas porque ya esta en el login.logout
 	}
 	
 	@Test
@@ -88,7 +88,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 		admin.buscarUsuario(nombre);
 		admin.validarUsuarioDisable();
 		login.logOut();
-		login.closeBrowser();
+		// login.closeBrowser(); este close esta de mas porque ya esta en el login.logout
 	}
   
 	/*
@@ -102,7 +102,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 		admin.buscarUsuario(username);
 		admin.validarUsuarioAdmin();
 		login.logOut();
-		login.closeBrowser();
+		//login.closeBrowser(); // este close esta de mas, este close esta de mas porque ya esta en el login.logout
 	}
 
   @AfterClass

@@ -8,41 +8,44 @@
       <![CDATA[Lanzando navegador]]>
     </line>
     <line>
+      <![CDATA[Agregar usuario Desabilitado]]>
+    </line>
+    <line>
       <![CDATA[Buscar usuario]]>
     </line>
     <line>
-      <![CDATA[Validar si el usaurio es admin]]>
+      <![CDATA[Validación usuario Disable]]>
     </line>
     <line>
       <![CDATA[Log Out]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-03-09T06:39:49Z" name="Default suite" finished-at="2022-03-09T06:39:56Z" duration-ms="7268">
+  <suite started-at="2022-03-10T01:02:38Z" name="Default suite" finished-at="2022-03-10T01:02:53Z" duration-ms="14848">
     <groups>
     </groups>
-    <test started-at="2022-03-09T06:39:49Z" name="Default test" finished-at="2022-03-09T06:39:56Z" duration-ms="7268">
+    <test started-at="2022-03-10T01:02:38Z" name="Default test" finished-at="2022-03-10T01:02:53Z" duration-ms="14848">
       <class name="orangePOM.AdminTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:orangePOM.AdminTest@7c214cc0]" started-at="2022-03-09T06:39:49Z" name="beforeClass" finished-at="2022-03-09T06:39:50Z" duration-ms="1376" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:orangePOM.AdminTest@7c214cc0]" started-at="2022-03-10T01:02:38Z" name="beforeClass" finished-at="2022-03-10T01:02:40Z" duration-ms="2361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC006_Validate_User_Admin()[pri:0, instance:orangePOM.AdminTest@7c214cc0]" started-at="2022-03-09T06:39:50Z" name="TC006_Validate_User_Admin" finished-at="2022-03-09T06:39:56Z" duration-ms="5863" status="FAIL">
+        <test-method signature="TC005_Admin_CreateUserDisabled()[pri:0, instance:orangePOM.AdminTest@7c214cc0]" started-at="2022-03-10T01:02:40Z" name="TC005_Admin_CreateUserDisabled" finished-at="2022-03-10T01:02:53Z" duration-ms="12424" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-TLS3V1C2', ip: '192.168.100.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\rera_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 92fb641061a7bc01eb10487eaf48c705]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\rera_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64368}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d12572e36ee053506fb8d982d2b5681b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-TLS3V1C2', ip: '192.168.100.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\rera_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 92fb641061a7bc01eb10487eaf48c705
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\rera_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64368}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d12572e36ee053506fb8d982d2b5681b
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -57,7 +60,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
 at base.Base.closeBrowser(Base.java:80)
-at orangePOM.AdminTest.TC006_Validate_User_Admin(AdminTest.java:105)
+at orangePOM.AdminTest.TC005_Admin_CreateUserDisabled(AdminTest.java:91)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -94,17 +97,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Lanzando navegador]]>
             </line>
             <line>
+              <![CDATA[Agregar usuario Desabilitado]]>
+            </line>
+            <line>
               <![CDATA[Buscar usuario]]>
             </line>
             <line>
-              <![CDATA[Validar si el usaurio es admin]]>
+              <![CDATA[Validación usuario Disable]]>
             </line>
             <line>
               <![CDATA[Log Out]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC006_Validate_User_Admin -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangePOM.AdminTest@7c214cc0]" started-at="2022-03-09T06:39:56Z" name="afterClass" finished-at="2022-03-09T06:39:56Z" duration-ms="1" status="PASS">
+        </test-method> <!-- TC005_Admin_CreateUserDisabled -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:orangePOM.AdminTest@7c214cc0]" started-at="2022-03-10T01:02:53Z" name="afterClass" finished-at="2022-03-10T01:02:53Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

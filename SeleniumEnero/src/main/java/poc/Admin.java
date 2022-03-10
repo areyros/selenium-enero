@@ -40,7 +40,7 @@ public class Admin extends Base{
 	private String deleteConfir ="Delete records?";
 	private String statusDisable = "Disable";
 	private String statustblDisable = "Disabled";
-	private String rolAdmin = "Admin";
+	public String rolAdmin = "Admin";
 	
 	public void buscarUsuario (String username) {
 		reporterLog("Buscar usuario");
