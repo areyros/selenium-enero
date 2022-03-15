@@ -6,8 +6,8 @@
       <class name="orangePOM.AdminTest">
         <methods>
           <include name="afterClass"/>
-          <include name="TC006_Validate_User_Admin"/>
           <include name="beforeClass"/>
+          <include name="TC005_Admin_CreateUserDisabled"/>
         </methods>
       </class> <!-- orangePOM.AdminTest -->
     </classes>
